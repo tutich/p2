@@ -14,3 +14,13 @@
 button:hover{
     background-color: aqua;
 }
+.container-flex{
+    display: flex;
+    background-color: chocolate;
+    margin: 10px;
+}
+.container-flex div {
+    background-co lor: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;}
