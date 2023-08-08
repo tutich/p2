@@ -12,6 +12,9 @@
     height: 100px;
     width: 100px;
     opacity: 0.5;
+    li{
+        list-style-type: none;
+    }
 }
 button:hover{
     background-color: aqua;
@@ -37,4 +40,18 @@ button:hover{
     }
     @media only screen and(min-width: 400px) {
         
+    }
+    table{
+        border-collapse: collapse;
+        width: 50%;
+    }
+    tr th{
+        border: 1px solid;
+border-collapse: collapse;
+    }
+    tr td{
+        border: 1px solid;
+    }
+    td{
+        background-color: cadetblue;
     }
