@@ -1,16 +1,12 @@
-.buff {
+div.buff {
+
     position: relative;
-    top: 30px;
-    padding: 30px;
-    padding-left: 20%;
-    padding-right: 40%;
-    padding-bottom: 20%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    height: 100px;
     width: 100px;
-    opacity: 0.5;
+    opacity: 0.8;
+    
+    
     li{
         list-style-type: none;
     }
@@ -42,15 +38,29 @@ button:hover{
     }
     table{
         border-collapse: collapse;
-        width: 50%;
+        width: 70%;
+        text-align: center;
     }
     tr th{
         border: 1px solid;
 border-collapse: collapse;
+padding: 15px;
     }
     tr td{
         border: 1px solid;
+        padding: 15px;
+        background-color: aqua;
+
     }
-    td{
+    td:hover{
         background-color: cadetblue;
     }
+    ol{
+        font-weight: 100;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: medium;
+    }
+    li{
+        color: darkslategray;
+    }
+    
