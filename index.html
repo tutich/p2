@@ -1,74 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title favicon="file:///C:/Users/user/AppData/Local/Temp/Rar$DIa13124.26484/favicon-32x32.png">Buffalos</title>
-   <link rel="stylesheet" href="buff.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results-Summary-component</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="comp.css">
+</head>
 <body>
-  <div class="buff">
-<img src="data:image/jpeg;base64,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" alt="">
+  <div class="wrapper">
+    <h2>Your Result</h2>
+    <p class="para">76 <br>of 100</p>
+    <h2>Great</h2>
+    <p>You scored higher than 65% of the <br>people who have taken this tests.</p>
   </div>
-  <div>
-<h1>All About Buffalos</h1>
-<h2>Types of Buffalos</h2>
-<ol>
-    <li> Murrah</li>
-    <div>
-        <p>The Murrah buffalo is a breed of water buffalo mainly kept for milk production. It originates in Haryana and Punjab of India, where it is kept in the districts of Bhiwani, Agra, Hisar, Rohtak, Jind, Jhajhar, Fatehabad, Gurgaon and the capital region of Delhi.</p>
-    </div>
-    <li>Carabao</li>
-    <div>
-        <p></p>
-    </div>Carabao is the Philippine English term for the water buffalo. In Malaysia, carabaos are expectedly known as kerbau in Malay and are the official animal of the state of Negeri Sembilan. 
-    <li> Nili-Ravi</li>
-    <div>
-        <p>Nili-Ravi is a breed of domestic water buffalo of Punjab. It is distributed principally in Pakistan and India, concentrated in the Punjab region. </p>
-    </div>
-     <li>Nagpuri</li>
-     <div>
-        <p>The Nagpuri is a breed of water buffalo originating in Maharashtra, India. It stands better amongst the breeds of buffaloes which combine the milk and drought qualities in a better proportion in adverse climatic conditions. It is a River type buffalo.</p>
-     </div>
-    </ol>
-<section>Big five animals in the world</section>
-
+  <div class="container">
+    <table>
+      <h1>Summary</h1>
+      <tr class="reac">
+        <th>Reaction</th>
+        <td>80/100</td>
+      </tr>
+      <tr class="mem">
+        <th>Memory</th>
+        <td>92/100</td>
+      </tr>
+      <tr class="verb">
+        <th>Verbal</th>
+        <td>61/100</td>
+      </tr>
+      <tr class="vis">
+        <th>Visual</th>
+        <td>72/100</td>
+      </tr>
+    </table>
+    <button id="cont">Continue</button>
   </div>
-  <div>
-<p>To read more about buffalos, tap read more</p>
-<button>Read more</button>
-<p>Or sign up to read more</p>
-<for action="/action_page.php" target="_blank">
-    <label for="nam">Name :</label><br>
-    <input type="text" > <br>
-    <label for="pass">Password :</label><br>
-    <input type="text" ><br>
-    <input type="submit">
-</form>
-  </div>
-  <h1>Create a Flex Container</h1>
-
-  <div class="container-flex">
-    <div style="flex-grow: 1;">1</div>
-    <div style="flex-grow: 3;">2</div>
-    <div style="flex-grow: 5;">3</div>  
-  </div>
-  <table>
-<tr>
-    <th>India</th>
-    <th>Pakistan</th>
-    <th>Malaysia</th>
-</tr>
-<tr>
-    <td>Nagpuri</td>
-    <td>Carabao</td>
-    <td>Nili-Ravi</td>
-</tr>
-<tr>
-    <td>Maharashtra</td>
-    <td>Negeri Sembilan</td>
-    <td>Punjab</td>
-</tr>
-  </table>
-  <div id="clearfix"></div>
-  
 </body>
 </html>

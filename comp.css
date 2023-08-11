@@ -1,0 +1,60 @@
+.wrapper{
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+div.wrapper{
+    margin: px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 0px;
+    background-color: hsl(252, 100%, 67%);
+    background-color: hsl(241, 72%, 60%);
+    
+}
+.container{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 0px;
+    
+}
+table{
+   width: 20%;
+   display: block;
+   margin-left:  auto;
+   margin-right: auto;
+}
+ th, td{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+button{
+    border-radius: 20px;
+    width: 30%;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+}
+
+.reac th{
+   color: hsl(12, 74%, 71%);
+}
+.mem th{
+color: hsl(59, 65%, 57%);
+}
+.verb th{
+color: hsl(180, 86%, 42%);
+}
+.vis th{
+ color: hsl(224, 68%, 38%)
+}
+tr{
+   background-color: rgb(238, 232, 224);
+}
+#cont{
+    color: hsl(0, 0%, 100%);
+}
